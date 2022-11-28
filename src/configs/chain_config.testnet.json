@@ -1,20 +1,20 @@
 {
-  "title": "Cosmos Block Explorer",
+  "title": "Spike Block Explorer",
   "network": "theta-testnet-001",
   "prefix": {
-    "consensus": "cosmosvalcons",
-    "validator": "cosmosvaloper",
-    "account": "cosmos"
+    "consensus": "spikevalcons",
+    "validator": "spikevaloper",
+    "account": "spike"
   },
   "genesis": {
     "time": "2021-07-13T08:00:00",
     "height": 1
   },
-  "primaryTokenUnit": "uatom",
-  "votingPowerTokenUnit": "uatom",
+  "primaryTokenUnit": "uspk",
+  "votingPowerTokenUnit": "uspk",
   "tokenUnits": {
-    "uatom": {
-      "display": "atom",
+    "uspk": {
+      "display": "spk",
       "exponent": 6
     }
   },
